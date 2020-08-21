@@ -1,0 +1,21 @@
+.results {
+  text-align: left;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+
+  h1 {
+    font-weight: bold;
+  }
+
+  label {
+    margin-bottom: 0.5em;
+    .result {
+      font-weight: bold;
+    }
+  }
+
+  .quiz-button {   
+    margin-top: 0.5em;
+  }
+}

@@ -1,0 +1,21 @@
+.question {
+  text-align: left;
+
+  .options {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+
+    label {
+      margin-bottom: 0.5em;
+    }
+  }
+  .response {   
+    margin-top: 0.5em;
+ 
+    .quiz-button {
+      margin: 0 0.5em;
+    }
+
+  }
+}

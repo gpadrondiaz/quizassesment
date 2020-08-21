@@ -1,0 +1,49 @@
+{
+  "name": "ui-code-assessment",
+  "version": "1.0.0",
+  "author": "Lucid LLC",
+  "main": "src/index.js",
+  "scripts": {
+    "start:server": "node ./src/server/server.js",
+    "start:client": "react-scripts start",
+    "start": "concurrently npm:start:client npm:start:server",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "lodash": "^4.14.159",
+    "axios": "^0.19.2",
+    "connected-react-router": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-loader-spinner": "^3.1.0",
+    "react-redux": "^7.1.9",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^5.1.5",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.6.1",
+    "redux-thunk": "^2.3.0",
+    "regenerator-transform": "^0.13.3",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "concurrently": "^5.0.0",
+    "react-scripts": "^3.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
