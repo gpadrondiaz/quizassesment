@@ -25,10 +25,6 @@ The application is a Quiz interface - a UI that shows a set of 10 questions and 
 - The final score (%)
 - A button to restart the Quiz with a different questions
 
-A reference mockup for the summary page is depicted below:
-
-![](./mockups/summary.png)
-
 ### Setup
 
 This repo provides a React application bootstrap. To get setup, run these commands:
